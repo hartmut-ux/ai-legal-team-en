@@ -26,27 +26,17 @@ No SaaS subscription. No vendor lock-in. Your data stays with you.
 
 ## Why Open Source?
 
-Enterprise Legal AI (Harvey AI, CoCounsel) costs £800–2,000 per user/month. For 25 solicitors: **£250,000+ per year.**
-
-This team costs a fraction — and you keep control of your data.
-
-| | Enterprise SaaS | AI Legal Team |
-|---|---|---|
-| Setup | £8,000–40,000 | £15,000–25,000 |
-| Annually (25 users) | £250,000+ | Token-based (low) |
-| Data sovereignty | Cloud (often US) | Local / UK or Swiss hosting |
-| Customisation | None | Full |
+Enterprise Legal AI (Harvey AI, CoCounsel) is expensive and often US-hosted. This team offers a lean, sovereign alternative — you keep control of your data.
 
 ## Technology
 
-- **Claude Skills** — Specialised AI agents on Anthropic Claude
+- **Claude Skills** — Specialised AI agents on Anthropic Claude (Sonnet 4.6)
 - **MCP** (Model Context Protocol) — Open standard by the Linux Foundation
-- **Apertus** — Swiss Open Source AI for data sovereignty
 - **.skill format** — ZIP archives for Claude Desktop
 
 ## Live Demos
 
-- **Liechtenstein Legal Navigator**: [udify.app/chat/ZOvDsVvUxG8fqpRH](https://udify.app/chat/ZOvDsVvUxG8fqpRH) — Built with Dify + Apertus
+- **Liechtenstein Legal Navigator**: [udify.app/chat/ZOvDsVvUxG8fqpRH](https://udify.app/chat/ZOvDsVvUxG8fqpRH) — Built with Dify + Claude
 - **Compliance Cockpit Survey**: [umfrage.compliance.mmind.ai](https://umfrage.compliance.mmind.ai/) — AI-powered compliance heatmap
 
 ## Installation
@@ -60,31 +50,13 @@ git clone https://github.com/hartmut-ux/ai-legal-team-en.git
 cp skills/contract-analyst/ ~/.claude/skills/
 ```
 
-## Consulting Offer
+## About the Author
 
-The repo is the starting point. For customisation to your firm, we offer a 3-sprint model:
+**Hartmut Hübner, PhD** combines 20 years of corporate communications in large enterprises (Siemens, financial services) with 10 years of experience in transformation, digitalisation and AI. Co-founder of several startups, including MMIND.ai. Academic background at LMU Munich and PhD from the University of Salford (thesis: *The Communicating Company*).
 
-| Sprint | Scope | Timeline |
-|--------|-------|----------|
-| 1. Audit + Install | Analyse workflows, base system, first 3–4 skills | Week 1–2 |
-| 2. Customise | Firm voice, compliance, matter types | Week 3–4 |
-| 3. Train + Launch | Team training, supervision model, go live | Week 5–6 |
-
-**Pricing:** GBP 25,000–60,000 (UK) · CHF 35,000–75,000 (Switzerland)
-
-## About
-
-**Hartmut Hübner, PhD**
-- 20 years corporate communications (Siemens, financial services)
-- 10 years transformation, digitalisation, AI
-- Co-Founder MMIND.ai
-- LMU Munich, PhD University of Salford
-
-**Links:**
-- LinkedIn: [linkedin.com/in/hartmuthuebner](https://www.linkedin.com/in/hartmuthuebner/)
-- AI Marketplace: [mmind.space](https://mmind.space)
-- Marketing Team: [github.com/hartmut-ux/ai-marketing-team](https://github.com/hartmut-ux/ai-marketing-team)
-- Legal Team (DE): [github.com/hartmut-ux/ai-legal-team](https://github.com/hartmut-ux/ai-legal-team)
+- 🌐 [mmind.ai](https://mmind.ai) · [MMIND.ai Marketplace](https://mmind.ai/marketplace)
+- 💼 [LinkedIn](https://linkedin.com/in/hartmutplass)
+- 🐙 [GitHub](https://github.com/hartmut-ux)
 
 ## Licence
 
