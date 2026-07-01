@@ -1,0 +1,41 @@
+# Hartmut's AI Legal Team (English)
+
+A library of 9 sovereign, open-source AI legal skills for mid-market law firms (10–80 solicitors). Each skill works across Kimi Code CLI, Claude Code and Codex CLI.
+
+## What it is
+
+- 9 specialised AI skills covering contract analysis, legal research, compliance, client communications, due diligence, litigation support, knowledge management, business development and practice operations.
+- Multi-platform: every skill ships as `-all.zip`, `-kimi.zip`, `-claude.zip` and `-codex.zip`.
+- Open source under MIT. No SaaS subscription, no vendor lock-in, no data leakage to third-party legal SaaS.
+- Jurisdiction-aware: English law and Swiss OR/ZGB where relevant.
+
+## Key skills
+
+- `contract-analyst` — Contract review, red flags and clause comparison.
+- `legal-researcher` — Case-law search, UKSC/BGer decisions, legislative tracking.
+- `compliance-monitor` — GDPR UK, SRA, nDSG, GwG, FINMA and EU AI Act obligations.
+- `client-communicator` — Client letters, matter updates and fee communications.
+- `due-diligence-assistant` — M&A, real estate and restructuring due diligence.
+- `litigation-support` — Briefs, chronologies, evidence and strategy memos.
+- `knowledge-manager` — Precedents, templates, know-how and onboarding.
+- `legal-bd-marketing` — Firm newsletters, LinkedIn and events (SRA/BGFA compliant).
+- `practice-operations` — Time recording, WIP, profitability and internal comms.
+
+## How to install
+
+1. Download a skill ZIP from the latest release.
+2. Extract and copy the matching folder:
+   - Kimi: `.kimi/skills/<skill-name>` → `~/.kimi/skills/`
+   - Claude: `.claude/skills/<skill-name>` → `~/.claude/skills/`
+   - Codex: `.codex/skills/<skill-name>` → `~/.codex/skills/`
+3. Invoke the skill by name, e.g. `/contract-analyst` in Kimi or `contract-analyst` in Claude/Codex.
+
+## Related projects
+
+- AI Marketing Team: https://github.com/hartmut-ux/ai-marketing-team
+- B Corp Navigator: https://github.com/hartmut-ux/ai-bcorp-team-en
+- AI Legal Team (German): https://github.com/hartmut-ux/ai-legal-team
+
+## Live page
+
+https://hartmut-ux.github.io/ai-legal-team-en/
