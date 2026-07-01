@@ -1,0 +1,10 @@
+title: "AI Legal Team — 9 AI Skills for Law Firms"
+description: "Free, sovereign AI legal skills for mid-market law firms. Works with Kimi Code CLI, Claude Code and Codex CLI."
+url: "https://hartmut-ux.github.io/ai-legal-team-en"
+baseurl: ""
+theme: minima
+header_pages:
+  - index.md
+exclude:
+  - skills/
+  - README.md
